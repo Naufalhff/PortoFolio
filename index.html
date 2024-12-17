@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link href="src/input.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >portofolio</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#resume"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Resume</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Portofolio</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Hero section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-primary md:text-xl">
+              Halo semua🖐. Saya
+              <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">
+                Naufal Hidayatul Fikri</span
+              >
+            </h1>
+            <h2 class="font-medium text-secondary lg mb-5 lg:text-2xl">
+              Fresh Graduate
+            </h2>
+            <p
+              class="font-medium text-secondary mb-10 leading-rel first-letter:axed"
+            >
+              Saya lulusan SMK Negeri 1 Cimahi jurusan Rekayasa Perangkat Lunak
+            </p>
+
+            <a
+              href="#about"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Tentang Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="dist/img/profile.png"
+                alt="Naufal"
+                class="max-w-full mx-auto"
+              />
+              <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                <svg
+                  widht="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#14b8a6"
+                    d="M53.6,-18.3C60,2.4,49.3,27.8,29.5,42.6C9.7,57.5,-19.2,61.8,
+                                -35.5,49.7C-51.9,37.7,-55.7,9.2,-47.7,-13.7C-39.7,-36.5,-19.8,-53.7,1.9,-54.3C23.6,
+                                -54.9,47.2,-38.9,53.6,-18.3Z"
+                    transform="translate(100 100) scale(1.9)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- about start -->
+    <section id="about" class="pt-36 pb-10">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-m lg:text-4xl">
+              Halo🖐
+            </h2>
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
+              Saya adalah lulusan SMK Negeri 1 Cimahi jurusan Rekayasa Perangkat
+              Lunak dengan minat utama sebagai Front-End Web Developer. Memiliki
+              kemampuan dalam membangun website sederhana menggunakan HTML, CSS,
+              JavaScript, Vue.js dan laravel. Terampil dalam menggunakan alat
+              desain grafis seperti Adobe Photoshop, CorelDRAW, Figma, dan
+              Blender serta mahir mengoperasikan Microsoft Office. Dengan
+              kemampuan komunikasi yang baik, saya mudah beradaptasi dalam
+              berbagai lingkungan kerja dan situasi. Saya siap untuk belajar dan
+              berkembang lebih jauh dalam dunia pengembangan web dan desain
+              grafis guna memberikan kontribusi positif bagi tim dan perusahaan.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Kontak Saya
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Ayo Berteman dengan saya
+            </p>
+            <div class="flex items-center">
+              <!-- whatsapp -->
+              <a
+                href="https://wa.me/6287830664001"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <img src="dist/img/wa.png" alt="wa" class="w-6 h-6" />
+              </a>
+              <!-- instagram -->
+              <a
+                href="https://instagram.com/naufallhf_?igshid=ZGUzMzM3NWJiOQ=="
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <img src="dist/img/ig.png" alt="instagram" class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+
+    <!-- resume start -->
+    <section id="resume" class="pt-10 pb-10">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              Resume
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-m lg:text-3xl">
+              Pengalaman Kerja
+            </h2>
+
+            <p
+              class="font-medium text-base text-secondary max-w-xl lg:text-lg font-bold mb-3"
+            >
+              PT. Thredio Engineering - PKL (Januari - April 2023)
+              <span class="block">Front-end web developer</span>
+              <span class="block"
+                >- Mengembangkan front-end website perusahaan</span
+              >
+            </p>
+            <p
+              class="font-medium text-base text-secondary max-w-xl lg:text-lg font-bold mb-3"
+            >
+              Qaytech - Freelance (Juli 2024 - Agustus 2024)
+              <span class="block">Fullstack web developer</span>
+              <span class="block"
+                >- Membuat frontend website admin dashboard<br />
+                - Membuat backend website admin dashboardn</span
+              >
+            </p>
+
+            <p
+              class="font-medium text-base text-secondary max-w-xl lg:text-lg font-bold mb-3"
+            >
+              Design grafis - Freelance (Mei 2024 - Juli 2024)
+              <span class="block"
+                >- Membuat logo produk<br />
+                - Membuat mockup produk<br />
+                - Membuat postingan feed instagram<br />
+                - Membuat UI mockup website</span
+              >
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Pengalaman Organisasi
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Sispala di SMK Negeri 1 Cimahi
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Language
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              HTML, CSS, JavaScript, Vue.js, Laravel, PostgreSQL
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Tools
+            </h3>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              Adobe Photoshop, CorelDRAW, Figma, Blender
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- resume end -->
+
+    <!-- portofolio start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+            <h2 class="font-bold text-dark text-3xl mb-4">Project Terbaru</h2>
+          </div>
+        </div>
+
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt1.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Front-end Website Perusahaan
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Website ini dibuat menggunakan framework vue.js
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt11.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Front-end Website pengelolaan donasi mesjid
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Website ini dibuat menggunakan framework vue.js dengan backend
+              menggunakan laravel dan database menggunakan PostgreSql
+            </p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt12.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Fullstack website admin dashboard
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Website ini dibuat menggunakan php native dengan database MySql
+            </p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt13.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Website Profil Capres
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Website ini dibuat menggunakan HTML, CSS, JavaScript
+            </p>
+          </div>
+
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt2.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Promosi Media Sosial
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt3.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Content Media Sosial
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt4.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Poster
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan CorelDraw
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt5.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Logo
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan CorelDraw
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt6.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Poster Informasi
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt7.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Logo
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt8.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Poster Informasi
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt9.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Mockup Website
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/portofolio/pt10.jpg"
+                alt="portofolio1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-dark mt-5 mb-3">
+              Desain Booklet
+            </h3>
+            <p class="font-medium text-base text-secondary">
+              Design ini dibuat menggunakan Adobe Photoshop
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portofolio end -->
+
+    <!-- footer start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300">
+            <h2 class="font-bold text-4xl text-white mb-5">Contact</h2>
+            <h3>Hubungi Saya</h3>
+            <p>naufalhidayatul01@gmail.com</p>
+            <div class="flex items-center mt-2">
+              <!-- whatsapp -->
+              <a
+                href="https://wa.me/6287830664001"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-white border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <img src="dist/img/wa.png" alt="wa" class="w-6 h-6" />
+              </a>
+              <!-- instagram -->
+              <a
+                href="https://instagram.com/naufallhf_?igshid=ZGUzMzM3NWJiOQ=="
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center bg-white border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+              >
+                <img src="dist/img/ig.png" alt="instagram" class="w-6 h-6" />
+              </a>
+            </div>
+          </div>
+          <div class="w-full pt-10 border-t border-slate-700">
+            <div class="flex items-center justify-center mb-5"></div>
+            <p class="font-medium text-[0.75rem] text-slate-500 text-center">
+              Dibuat dengan <span class="text-pink-500">❤</span>oleh
+              <a
+                href="https://instagram.com/naufallhf_?igshid=ZGUzMzM3NWJiOQ=="
+                target="_blank"
+                class="font-bold text-primary"
+                >Naufal Hidayatul Fikri</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
